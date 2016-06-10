@@ -102,7 +102,8 @@ endfunction
 " (see `:h w18`)
 
 call s:h("Normal",        {"bg": s:bg, "fg": s:norm})
-call s:h("Cursor",        {"bg": s:bg_dark, "fg": s:norm })
+"call s:h("Cursor",        {"bg": s:bg_dark, "fg": s:norm })
+call s:h("Cursor",        {"bg": s:dark_red, "fg": s:norm })
 call s:h("Comment",       {"fg": s:medium_gray, "gui": "italic", "cterm": "italic"})
 
 call s:h("Constant",      {"fg": s:yellow})
@@ -150,14 +151,15 @@ call s:h("Todo",          {"fg": s:actual_white, "bg": s:blue, "gui": "bold"    
 " ordered according to `:help hitest.vim`
 
 call s:h("SpecialKey",    {"fg": s:blue})
-call s:h("Boolean",    {"fg": s:purple})
-call s:h("Number",    {"fg": s:purple})
-call s:h("Float",    {"fg": s:purple})
+call s:h("Boolean",       {"fg": s:purple})
+call s:h("Number",        {"fg": s:purple})
+call s:h("Float",         {"fg": s:purple})
 call s:h("NonText",       {"fg": s:bg_dark})
 call s:h("Directory",     {"fg": s:purple})
 call s:h("ErrorMsg",      {"fg": s:dark_red})
 call s:h("IncSearch",     {"bg": s:red, "fg": s:clouds})
 call s:h("Search",        {"bg": s:bg_dark})
+"call s:h("Search",        {"gui":"underline"})
 call s:h("MoreMsg",       {"fg": s:medium_gray, "gui": "bold", "cterm": "bold"})
 hi! link ModeMsg MoreMsg
 call s:h("LineNr",        {"fg": s:dark_asphalt, "bg": s:bg_subtle})
