@@ -40,7 +40,7 @@ let s:lighter_gray  = { "gui": "#C6C6C6", "cterm": "251", "cterm16" : "251" }
 " flat colors:
 let s:asphalt = { "gui": "#171338", "cterm": "233", "cterm16": "NONE"}
 let s:asphalt_subtle= { "gui": "#100E23", "cterm": "232", "cterm16": "8"}
-let s:dark_asphalt = { "gui": "#565575", "cterm": "236", "cterm16": "0"}
+let s:dark_asphalt = { "gui": "#565575", "cterm": "240", "cterm16": "0"}
 
 let s:red = { "gui": "#ff8080", "cterm": "204", "cterm16": "1"}
 let s:dark_red = { "gui": "#ff5458", "cterm": "203", "cterm16": "9"}
@@ -69,7 +69,7 @@ let s:bg_subtle       = s:asphalt_subtle
 let s:bg_dark         = s:dark_asphalt
 let s:norm            = s:clouds
 let s:norm_subtle     = s:clouds_subtle
-let s:visual          = s:bg_dark
+let s:visual          = s:dark_asphalt
 
 let s:head_a         = s:dark_blue
 let s:head_b         = s:blue
