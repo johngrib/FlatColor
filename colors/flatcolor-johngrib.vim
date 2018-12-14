@@ -101,7 +101,9 @@ endfunction
 " common groups ================================================================
 " (see `:h w18`)
 
-call s:h("Normal",        {"bg": s:bg, "fg": s:norm})
+" call s:h("Normal",        {"bg": s:bg, "fg": s:norm})
+hi Normal guibg=#121026 guifg=#fbfcfc ctermfg=254
+
 "call s:h("Cursor",        {"bg": s:bg_dark, "fg": s:norm })
 call s:h("Cursor",        {"bg": s:dark_red, "fg": s:norm })
 call s:h("Comment",       {"fg": s:medium_gray, "gui": "italic", "cterm": "italic"})
